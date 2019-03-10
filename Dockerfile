@@ -10,6 +10,7 @@ RUN apt-get update \
        software-properties-common \
        python-setuptools \
        python-pip \
+       unzip \
        rsyslog systemd systemd-cron sudo \
     && rm -Rf /var/lib/apt/lists/* \
     && rm -Rf /usr/share/doc && rm -Rf /usr/share/man \
